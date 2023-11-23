@@ -49,7 +49,7 @@ public class ApplicationContextSameBeanFindTest {
     static class SameBeanConfig {
 
         @Bean
-        public MemberRepository memberRepository() {
+        public MemberRepository memberRepository1() {
             return new MemoryMemberRepository();
         }
 
